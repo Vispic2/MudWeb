@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node main 5002 6666 -h 127.0.0.1",
+    "dev": "nodemon server.js -- "
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "compression": "^1.7.4",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "koa": "^2.13.4",
+    "minimist": "^1.2.7",
+    "socket.io": "^2.0.4",
+    "sqlite3": "^5.1.2",
+    "text-encoding": "^0.7.0",
+    "uglify-js": "^3.17.4",
+    "uglify-to-browserify": "^2.1.0"
+  }
+}
