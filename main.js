@@ -360,7 +360,7 @@ var io = socketio.listen(httpserver);
 // create webtelnet proxy and bind to io
 var webtelnetd = webtelnet(io, conf.telnet.port, conf.telnet.host);
 if (args.c) webtelnetd.setCharset(args.c);
-else webtelnetd.setCharset("gbk");
+else webtelnetd.setCharset("utf-8");
 
 function getDateYMD() {
   var date = new Date()
